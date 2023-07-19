@@ -1,0 +1,52 @@
+h1{
+    color: #347d7e;
+}
+
+p strong{
+    color: #eb3f30;
+}
+
+p strong #e2{
+    color: #f3ad3b;
+}
+
+h2{
+    color: #0125f5;
+}
+
+p u{
+    color: #ef5145;
+}
+
+p u i{
+    color: #1e2af6;
+}
+
+p span{
+    color: #8c3b92;
+}
+
+.amarillo{
+    color: #f2ad3d;
+}
+
+.rojo{
+    color: #eb3323;
+}
+
+.verde{
+    color: #599242;
+}
+
+#texto{
+    color: #858426;
+    line-height : 25px;
+}
+
+.moradoso{
+    color: #eb4df7;
+}
+
+.verdoso{
+    color: #4e903b;
+}
