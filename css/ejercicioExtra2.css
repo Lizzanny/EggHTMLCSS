@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table thead tr th{
+    background-color: #333;
+}
+
+table, tr, th, td{
+    border: solid 2px #333;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.dolar{
+    color: #9dc498;
+}
+
+.euro{
+    color: #e9d489;
+}
+
+.libra{
+    color: #aabbce;
+}
+
+.yen{
+    color:#94ab93;
+}
+
+table tbody tr th{
+    background-color: #E6F3FF;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFFCC;
+  }
