@@ -28,15 +28,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
         integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <link rel="stylesheet" href="css/ejercicioExtra3.css">
 </head>
 <style>
-    .container{
+    .back{
         background-image: url("img/background-top.jpg");
         background-size:  cover;
     }
 </style>
 <body>
     <div class="container-fluid">
+        
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -71,7 +74,129 @@
                 </div>
             </div>
         </nav>
+        <div class="p-5 text-center bg-body-tertiary rounded-3 back">
+            <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
+            <h1 class="text-body-emphasis">Jumbotron with icon</h1>
+            <p class="col-lg-8 mx-auto fs-5 text-muted">
+              This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a responsive <code>.col-*</code> class, and a customized call to action.
+            </p>
+            <div class="d-inline-flex gap-2 mb-5">
+              <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+                Call to action
+                <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
+              </button>
+              <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                Secondary link
+              </button>
+            </div>
+        </div>
+        
+        <div>
+            <section class="light">
+                <div class="container py-2">
+                    <article class="postcard light blue">
+                        <a class="postcard__img_link" href="#">
+                            <img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
+                        </a>
+                        <div class="postcard__text t-dark">
+                            <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+                            <div class="postcard__subtitle small">
+                                <time datetime="2020-05-25 12:00:00">
+                                    <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                </time>
+                            </div>
+                            <div class="postcard__bar"></div>
+                            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                            <ul class="postcard__tagbox">
+                                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                <li class="tag__item play blue">
+                                    <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="postcard light red">
+                        <a class="postcard__img_link" href="#">
+                            <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	
+                        </a>
+                        <div class="postcard__text t-dark">
+                            <h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
+                            <div class="postcard__subtitle small">
+                                <time datetime="2020-05-25 12:00:00">
+                                    <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                </time>
+                            </div>
+                            <div class="postcard__bar"></div>
+                            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                            <ul class="postcard__tagbox">
+                                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                <li class="tag__item play red">
+                                    <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="postcard light green">
+                        <a class="postcard__img_link" href="#">
+                            <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+                        </a>
+                        <div class="postcard__text t-dark">
+                            <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
+                            <div class="postcard__subtitle small">
+                                <time datetime="2020-05-25 12:00:00">
+                                    <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                </time>
+                            </div>
+                            <div class="postcard__bar"></div>
+                            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                            <ul class="postcard__tagbox">
+                                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                <li class="tag__item play green">
+                                    <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="postcard light yellow">
+                        <a class="postcard__img_link" href="#">
+                            <img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" />
+                        </a>
+                        <div class="postcard__text t-dark">
+                            <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+                            <div class="postcard__subtitle small">
+                                <time datetime="2020-05-25 12:00:00">
+                                    <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                </time>
+                            </div>
+                            <div class="postcard__bar"></div>
+                            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                            <ul class="postcard__tagbox">
+                                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                <li class="tag__item play yellow">
+                                    <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <div>
+            <div class="container">
+                <div></div>
+            </div>
+            <h1>Lizeth</h1>
+            <div class="container-static" data-testid="modal-container"><div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;"><h1>Anexo CSS</h1><div style="display: flex; margin-left: 20px;"></div></div><p class="sc-jTYCaT bvWBZi"><a href="https://drive.google.com/file/d/1-rA2IIagumqmpLDvRj5BWl2zcChXTWbW/view" target="_blank" rel="noopener noreferrer" class="sc-dsQDmV bcOaqs">Este anexo</a> es una herramienta complementaria para tu aprendizaje que te ayudará a sacarle el mejor provecho posible a CSS.</p><p class="sc-jTYCaT bvWBZi"><b>Este material no es obligatorio.</b></p><p class="sc-jTYCaT bvWBZi">
+
+            </p><div style="display: flex; justify-content: flex-end; margin-top: 40px;"><div style="display: flex; margin-left: 20px;"></div></div></div>
+        </div>
     </div>
 </body>
 
 </html>
+
+
